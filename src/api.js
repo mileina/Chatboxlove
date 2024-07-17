@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = 'sk-proj-PGSAsbTLz5CM9hfUHjUIT3BlbkFJ0anlqEWnGRZFpelq4JN2';
+const API_KEY = 'sk-proj-rbaPgJrlcenbWbQjfyciT3BlbkFJsa5JMX4is5HfVhquoEuc';
 
 const chatGPT = async (prompt) => {
   try {
