@@ -1,7 +1,6 @@
 import React, { Suspense, lazy } from 'react';
 import ReactDOM from 'react-dom';
-
-const Chatbot = lazy(() => import('./components/Chatbot'));
+import Chatbot from './components/Chatbot.js'; // Adjusted import statement
 
 const App = () => (
   <Suspense fallback={<div>Loading...</div>}>

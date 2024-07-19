@@ -1,7 +1,6 @@
-const chai = require('chai');
-const expect = chai.expect;
+import { expect } from 'chai';
 
-const calculateCompatibility = require('../src/components/calculateCompatibility');
+import calculateCompatibility from '../src/components/calculateCompatibility.js';
 
 describe('Compatibility Calculation', function() {
   it('should return 90 for a perfect match', function() {

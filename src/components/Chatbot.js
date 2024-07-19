@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Question from './Question';
-import Result from './Result';
-import chatGPT from '../api';
+import Question from './Question.js';
+import Result from './Result.js';
+import chatGPT from '../api.js';
 
 const Chatbot = () => {
   const [step, setStep] = useState(0);
